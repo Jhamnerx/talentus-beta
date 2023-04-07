@@ -1,0 +1,50 @@
+[23-Jul-2022 10:53:51 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'numero' at row 1 in /home/talentus/public_html/talentus/modelos/lineas.modelo.php:99
+Stack trace:
+#0 /home/talentus/public_html/talentus/modelos/lineas.modelo.php(99): PDOStatement->execute()
+#1 /home/talentus/public_html/talentus/controladores/vehiculos.controlador.php(48): ModeloLineas::mdlIngresarLinea('lineas', Array)
+#2 /home/talentus/public_html/talentus/vistas/modulos/vehiculo.php(392): ControladorVehiculos::ctrCrearVehiculos()
+#3 /home/talentus/public_html/talentus/vistas/plantilla.php(294): include('/home/talentus/...')
+#4 /home/talentus/public_html/talentus/controladores/plantilla.controlador.php(8): include('/home/talentus/...')
+#5 /home/talentus/public_html/talentus/index.php(69): ControladorPlantilla->plantilla()
+#6 {main}
+  thrown in /home/talentus/public_html/talentus/modelos/lineas.modelo.php on line 99
+[23-Jul-2022 10:57:12 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'numero' at row 1 in /home/talentus/public_html/talentus/modelos/lineas.modelo.php:99
+Stack trace:
+#0 /home/talentus/public_html/talentus/modelos/lineas.modelo.php(99): PDOStatement->execute()
+#1 /home/talentus/public_html/talentus/controladores/vehiculos.controlador.php(48): ModeloLineas::mdlIngresarLinea('lineas', Array)
+#2 /home/talentus/public_html/talentus/vistas/modulos/vehiculo.php(392): ControladorVehiculos::ctrCrearVehiculos()
+#3 /home/talentus/public_html/talentus/vistas/plantilla.php(294): include('/home/talentus/...')
+#4 /home/talentus/public_html/talentus/controladores/plantilla.controlador.php(8): include('/home/talentus/...')
+#5 /home/talentus/public_html/talentus/index.php(69): ControladorPlantilla->plantilla()
+#6 {main}
+  thrown in /home/talentus/public_html/talentus/modelos/lineas.modelo.php on line 99
+[23-Jul-2022 11:00:24 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'numero' at row 1 in /home/talentus/public_html/talentus/modelos/lineas.modelo.php:99
+Stack trace:
+#0 /home/talentus/public_html/talentus/modelos/lineas.modelo.php(99): PDOStatement->execute()
+#1 /home/talentus/public_html/talentus/controladores/vehiculos.controlador.php(48): ModeloLineas::mdlIngresarLinea('lineas', Array)
+#2 /home/talentus/public_html/talentus/vistas/modulos/vehiculo.php(392): ControladorVehiculos::ctrCrearVehiculos()
+#3 /home/talentus/public_html/talentus/vistas/plantilla.php(294): include('/home/talentus/...')
+#4 /home/talentus/public_html/talentus/controladores/plantilla.controlador.php(8): include('/home/talentus/...')
+#5 /home/talentus/public_html/talentus/index.php(69): ControladorPlantilla->plantilla()
+#6 {main}
+  thrown in /home/talentus/public_html/talentus/modelos/lineas.modelo.php on line 99
+[25-Jul-2022 18:14:33 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `talentus_sistema`.`reporte_detalle`.`id_reporte` at row 1 in /home/talentus/public_html/talentus/modelos/reportes.modelo.php:131
+Stack trace:
+#0 /home/talentus/public_html/talentus/modelos/reportes.modelo.php(131): PDOStatement->execute()
+#1 /home/talentus/public_html/talentus/controladores/reportes.controlador.php(104): ModeloReportes::mdlIngresarDetalleReporte('reporte_detalle', Array)
+#2 /home/talentus/public_html/talentus/vistas/modulos/reporte.php(351): ControladorReportes::ctrCrearDetalleReporte()
+#3 /home/talentus/public_html/talentus/vistas/plantilla.php(294): include('/home/talentus/...')
+#4 /home/talentus/public_html/talentus/controladores/plantilla.controlador.php(8): include('/home/talentus/...')
+#5 /home/talentus/public_html/talentus/index.php(69): ControladorPlantilla->plantilla()
+#6 {main}
+  thrown in /home/talentus/public_html/talentus/modelos/reportes.modelo.php on line 131
+[25-Jul-2022 18:15:17 America/Lima] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: '' for column `talentus_sistema`.`reporte_detalle`.`id_reporte` at row 1 in /home/talentus/public_html/talentus/modelos/reportes.modelo.php:131
+Stack trace:
+#0 /home/talentus/public_html/talentus/modelos/reportes.modelo.php(131): PDOStatement->execute()
+#1 /home/talentus/public_html/talentus/controladores/reportes.controlador.php(104): ModeloReportes::mdlIngresarDetalleReporte('reporte_detalle', Array)
+#2 /home/talentus/public_html/talentus/vistas/modulos/reporte.php(351): ControladorReportes::ctrCrearDetalleReporte()
+#3 /home/talentus/public_html/talentus/vistas/plantilla.php(294): include('/home/talentus/...')
+#4 /home/talentus/public_html/talentus/controladores/plantilla.controlador.php(8): include('/home/talentus/...')
+#5 /home/talentus/public_html/talentus/index.php(69): ControladorPlantilla->plantilla()
+#6 {main}
+  thrown in /home/talentus/public_html/talentus/modelos/reportes.modelo.php on line 131

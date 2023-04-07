@@ -1,0 +1,7 @@
+[22-Jul-2022 22:32:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/talentus/public_html/talentus/modelos/vehiculos.modelo.php:16
+Stack trace:
+#0 /home/talentus/public_html/talentus/controladores/vehiculos.controlador.php(13): ModeloVehiculos::mdlMostrarVehiculos('vehiculo', 'id', '779')
+#1 /home/talentus/public_html/talentus/ajax/tablaReportes.ajax.php(67): ControladorVehiculos::ctrMostrarVehiculos('id', '779')
+#2 /home/talentus/public_html/talentus/ajax/tablaReportes.ajax.php(132): TablaReportes->mostrarTabla()
+#3 {main}
+  thrown in /home/talentus/public_html/talentus/modelos/vehiculos.modelo.php on line 16
